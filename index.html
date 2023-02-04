@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NetFlix</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img id="logo-netflix" src="./img/Netflix.png" alt="logo-netflix">
+            <button id="botao-entrar">Entrar</button>
+        </div>
+
+        <div>
+            <h1>Filmes, séries e muito mais. Sem limites.</h1>
+
+            <p class="paragrafo-assista">Assista onde quiser. Cancele quando quiser.</p>
+
+            <p class="paragrafo-pronto">Pronto para assistir? Informe seu email para criar ou reiniciar sua assiantura
+            </p>
+            <div id="formulario">
+                <input type="text" placeholder="Email">
+                <button id="botao-email">Vamos lá </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h2>Perguntas Frequentes</h2>
+
+        <button id="button-pergunta">O que é a Netflix ? <img id="fechar" src="./img/fechar (2).png" alt="simbolo-fechar"></button>
+
+        <div id="resposta">
+
+            <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários
+                premiados em milhares de aparelhos conectados à internet.</p>
+                <br>
+            <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser tudo por um preço mensal
+                acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    
+    const button = document.getElementById("button-pergunta")
+    const menu = document.getElementById("resposta")
+    const imagem = document.getElementById("fechar")
+
+    function rotacionar(){
+
+        if(menu.style.display == "none"){
+        menu.style.display = "block"
+        imagem.id = "fechar-rotacioonar"
+        } else {
+            menu.style.display = "none"
+            imagem.id = "fechar"
+        } 
+    }
+
+    button.addEventListener("click", rotacionar)
+
+</script>
+
+</html>

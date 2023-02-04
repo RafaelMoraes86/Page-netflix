@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    background: url("./img/banner.png");
+    width: 100%;
+     padding-bottom: 130px;
+
+}
+
+#logo-netflix {
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#botao-entrar {
+    background: #e50914;
+    padding: 8px 18px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+     margin-right: 15px;
+    margin-top: 15px;
+}
+
+#botao-entrar:hover {
+    opacity: 0.9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.paragrafo-assista {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.paragrafo-pronto {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    font-size: 21px;
+    color: #303030;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+#botao-email {
+width: 250px;
+background: #e50914;
+border: none;
+text-align: center;
+font-size: 21px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#botao-email:hover {
+    opacity: 0.9;
+}
+
+#imagem-botao {
+    height: 20px;
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#footer {
+    background: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#button-pergunta {
+    width: 700px;
+    background-color: #303030;
+    height: 70px;
+    border: none;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#fechar {
+    float: right;
+    margin-top: -2px;
+    height: 36px;
+}
+
+#fechar-rotacioonar {
+    float: right;
+    margin-top: -2px;
+    height: 36px;
+    transform: rotate(45deg);
+}
+
+#resposta {
+    width: 700px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding: 25px;
+    font-size: 28px;
+    display: none;
+}
